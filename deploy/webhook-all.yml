@@ -259,7 +259,7 @@ spec:
         - --tls-private-key-file=/tls/tls.key
         env:
         - name: GROUP_NAME
-          value: acme.mycompany.com
+          value: my.godaddy.webhook.group
         - name: LOGGING_LEVEL
           value: info
         - name: LOGGING_FORMAT
